@@ -1,6 +1,7 @@
 language: python
-rvm:
- - 3.5
- - python3
-# uncomment and edit the following line if your project needs to run something other than `rake`:
-# script: bundle exec rspec spec
+python:
+  - "3.5"
+# command to install dependencies
+# install: "pip install -r requirements.txt"
+# command to run tests
+script: test_rpn.py
